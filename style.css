@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+
+header{
+    min-height: 150px;
+    min-width: 900px;
+    background-color: #BF7ABB;
+    
+}
+
+header .img{
+    width: 450px;
+    margin: auto;
+    display: block;
+    padding: 20px;
+    
+    
+}
+
+header > p{
+    text-align: center;
+    color: #A6249D;
+    margin: auto;
+
+}
+
+header > p > span{
+    color: yellow;
+}
+
+nav{
+    
+}
