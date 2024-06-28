@@ -25,7 +25,7 @@
 }
 
 body{
-    background-color: var(--cor1);
+    background-color: #B856C2;
 }
 
 img{
@@ -34,8 +34,10 @@ img{
 
 header{
     min-height: 150px;
-    min-width: 900px;
-    background-color: var(--cor2);
+    text-shadow: 2px 2px 0px #0d0d0d23;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    padding-top: 20px;
+    
     
 }
 
@@ -55,6 +57,10 @@ header > p{
     margin: auto;
     font-family: var(--fontedestaque2);
     font-weight: bolder;
+    font-size: 1.4em;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
@@ -62,8 +68,40 @@ header > p > span{
     color: var(--cor3);
 }
 
+
 nav{
     background-color: var(--cor2);
+    padding:10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.164);
+    margin: auto;
+    font-size: 1.1em;
+    
+    
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor3);
+    padding: 10px;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+    padding: 5px;
+    color: var(--cor1);
+    border-radius: 3px;
+    text-decoration: underline;
+    
+    
+}
+
+nav a:active{
+    
 }
 
 main  {
@@ -72,7 +110,7 @@ main  {
    background-color: white;
    margin: auto;
    padding: 20px;
-   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.425);
+   
    margin-bottom: 20px;
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
